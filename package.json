@@ -1,0 +1,15 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "Play Snake in console",
+  "main": "snake.js",
+  "scripts": {
+    "test": "node main.js debug"
+  },
+  "author": "error2507",
+  "license": "ISC",
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "readline-sync": "^1.4.9"
+  }
+}
