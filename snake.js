@@ -6,14 +6,18 @@ const keypress = require('keypress');
 const start = require('./start.js');
 const setDirection = require('./setDirection.js')
 
-var table = start.run();
+var table;
+setTable();
+async function setTable() {
+    table = await start.run();
+}
 
 keypress(process.stdin);
 
 process.stdin.on('keypress', function (ch, key) {
     switch (key.name) {
         case 'up':
-            setDirection.up(table)
+            setDirection.up(table);
             break;
         case 'down':
             sdffsdfs
