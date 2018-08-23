@@ -186,10 +186,9 @@ module.exports.run = (table) => {
         } while (x <= 78);
     line17 + '#';
     
-    /*process.stdout.clearLine();
-    process.stdout.cursorTo(0);*/
-    //process.stdout.write
-    console.log(`################################################################################
+    process.stdout.clearLine();
+    process.stdout.cursorTo(0);
+    process.stdout.write(`################################################################################
 ${line1}
 ${line2}
 ${line3}
