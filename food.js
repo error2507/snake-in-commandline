@@ -1,3 +1,4 @@
+var food;
 module.exports = {
     spawn(table, fd) {
         var x;
@@ -6,7 +7,11 @@ module.exports = {
             x = Math.floor(Math.random() * 77) + 2;
             y = Math.floor(Math.random() * 16) + 2;    
         } while (table.includes(x + '_' + y));
-        var food = x + '_' + y;
+        food = x + '_' + y;
         return food
+    },
+
+    getPos() {
+        return food;
     }
 }

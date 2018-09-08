@@ -25,8 +25,9 @@ async function setup() {
     await setFoot();
 }
 
-var moveInterval = setInterval(function() {
+var moveInterval = setInterval(async function() {
     clear();
+    fd = await food.getPos()
     move.run(direction, table, moveInterval, fd);
 }, 500);
 
