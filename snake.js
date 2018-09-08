@@ -19,7 +19,6 @@ async function setup() {
     }
     async function setFoot() {
         fd = await food.spawn(table, fd);
-        console.log(fd);
     }
     await setTable();
     await setFoot();
@@ -29,7 +28,7 @@ var moveInterval = setInterval(async function() {
     clear();
     fd = await food.getPos()
     move.run(direction, table, moveInterval, fd);
-}, 500);
+}, 400);
 
 keypress(process.stdin);
 
