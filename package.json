@@ -9,7 +9,7 @@
   "author": "error2507",
   "license": "ISC",
   "dependencies": {
-    "keypress": "^0.2.1",
-    "readline-sync": "^1.4.9"
+    "clear-it": "^1.0.0",
+    "keypress": "^0.2.1"
   }
 }

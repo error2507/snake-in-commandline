@@ -1,211 +1,193 @@
-module.exports.run = (table) => {
-    var line1 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_1')) {
-                line1 + '#';
-            } else {
-                line1 + ' ';
-            }
-        } while (x <= 78);
-    line1 + '#';
+module.exports.run = async (table, fd) => {
+    var line1 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_1') || fd == (x + '_1')) {
+            line1.push('#');
+        } else {
+            line1.push(' ');
+        }
+    }
+    line1.push('#');
 
-    var line2 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_2')) {
-                line2 + '#';
-            } else {
-                line2 + ' ';
-            }
-        } while (x <= 78);
-    line2 + '#';
+    var line2 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_2') || fd == (x + '_2')) {
+            line2.push('#');
+        } else {
+            line2.push(' ');
+        }
+    }
+    line2.push('#');
 
-    var line3 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_3')) {
-                line3 + '#';
-            } else {
-                line3 + ' ';
-            }
-        } while (x <= 78);
-    line3 + '#';
+    var line3 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_3') || fd == (x + '_3')) {
+            line3.push('#');
+        } else {
+            line3.push(' ');
+        }
+    }
+    line3.push('#');
 
-    var line4 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_4')) {
-                line4 + '#';
-            } else {
-                line4 + ' ';
-            }
-        } while (x <= 78);
-    line4 + '#';
+    var line4 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_4') || fd == (x + '_4')) {
+            line4.push('#');
+        } else {
+            line4.push(' ');
+        }
+    }
+    line4.push('#');
 
-    var line5 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_5')) {
-                line5 + '#';
-            } else {
-                line5 + ' ';
-            }
-        } while (x <= 78);
-    line5 + '#';
+    var line5 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_5') || fd == (x + '_5')) {
+            line5.push('#');
+        } else {
+            line5.push(' ');
+        }
+    } 
+    line5.push('#');
 
-    var line6 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_6')) {
-                line6 + '#';
-            } else {
-                line6 + ' ';
-            }
-        } while (x <= 78);
-    line6 + '#';
+    var line6 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_6') || fd == (x + '_6')) {
+            line6.push('#');
+        } else {
+            line6.push(' ');
+        }
+    } 
+    line6.push('#');
 
-    var line7 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_7')) {
-                line7 + '#';
-            } else {
-                line7 + ' ';
-            }
-        } while (x <= 78);
-    line7 + '#';
+    var line7 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_7') || fd == (x + '_7')) {
+            line7.push('#');
+        } else {
+            line7.push(' ');
+        }
+    } 
+    line7.push('#');
 
-    var line8 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_8')) {
-                line8 + '#';
-            } else {
-                line8 + ' ';
-            }
-        } while (x <= 78);
-    line8 + '#';
+    var line8 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_8') || fd == (x + '_8')) {
+            line8.push('#');
+        } else {
+            line8.push(' ');
+        }
+    } 
+    line8.push('#');
 
-    var line9 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_9')) {
-                line9 + '#';
-            } else {
-                line9 + ' ';
-            }
-        } while (x <= 78);
-    line9 + '#';
+    var line9 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_9') || fd == (x + '_9')) {
+            line9.push('#');
+        } else {
+            line9.push(' ');
+        }
+    } 
+    line9.push('#');
 
-    var line10 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_10')) {
-                line10 + '#';
-            } else {
-                line10 + ' ';
-            }
-        } while (x <= 78);
-    line10 + '#';
+    var line10 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_10') || fd == (x + '_10')) {
+            line10.push('#');
+        } else {
+            line10.push(' ');
+        }
+    } 
+    line10.push('#');
 
-    var line11 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_11')) {
-                line11 + '#';
-            } else {
-                line11 + ' ';
-            }
-        } while (x <= 78);
-    line11 + '#';
+    var line11 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_11') || fd == (x + '_11')) {
+            line11.push('#');
+        } else {
+            line11.push(' ');
+        }
+    } 
+    line11.push('#');
 
-    var line12 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_12')) {
-                line12 + '#';
-            } else {
-                line12 + ' ';
-            }
-        } while (x <= 78);
-    line12 + '#';
+    var line12 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_12') || fd == (x + '_12')) {
+            line12.push('#');
+        } else {
+            line12.push(' ');
+        }
+    } 
+    line12.push('#');
 
-    var line13 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_13')) {
-                line13 + '#';
-            } else {
-                line13 + ' ';
-            }
-        } while (x <= 78);
-    line13 + '#';
+    var line13 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_13') || fd == (x + '_13')) {
+            line13.push('#');
+        } else {
+            line13.push(' ');
+        }
+    } 
+    line13.push('#');
 
-    var line14 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_14')) {
-                line14 + '#';
-            } else {
-                line14 + ' ';
-            }
-        } while (x <= 78);
-    line14 + '#';
+    var line14 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_14') || fd == (x + '_14')) {
+            line14.push('#');
+        } else {
+            line14.push(' ');
+        }
+    } 
+    line14.push('#');
 
-    var line15 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_15')) {
-                line15 + '#';
-            } else {
-                line15 + ' ';
-            }
-        } while (x <= 78);
-    line15 + '#';
+    var line15 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_15') || fd == (x + '_15')) {
+            line15.push('#');
+        } else {
+            line15.push(' ');
+        }
+    } 
+    line15.push('#');
 
-    var line16 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_1')) {
-                line16 + '#';
-            } else {
-                line16 + ' ';
-            }
-        } while (x <= 78);
-    line16 + '#';
+    var line16 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_16') || fd == (x + '_16')) {
+            line16.push('#');
+        } else {
+            line16.push(' ');
+        }
+    } 
+    line16.push('#');
 
-    var line17 = '#';
-        var x = 1
-        do {
-            if (table.includes(x + '_17')) {
-                line17 + '#';
-            } else {
-                line17 + ' ';
-            }
-        } while (x <= 78);
-    line17 + '#';
-    
-    process.stdout.clearLine();
-    process.stdout.cursorTo(0);
-    process.stdout.write(`################################################################################
-${line1}
-${line2}
-${line3}
-${line4}
-${line5}
-${line6}
-${line7}
-${line8}
-${line9}
-${line10}
-${line11}
-${line12}
-${line13}
-${line14}
-${line15}
-${line16}
-${line17}
+    var line17 = ['#'];
+    for (var x = 1; x <= 78; x++) {
+        if (table.includes(x + '_17') || fd == (x + '_17')) {
+            line17.push('#');
+        } else {
+            line17.push(' ');
+        }
+    } 
+    line17.push('#');
+
+    console.log(`################################################################################
+${line1.join('')}
+${line2.join('')}
+${line3.join('')}
+${line4.join('')}
+${line5.join('')}
+${line6.join('')}
+${line7.join('')}
+${line8.join('')}
+${line9.join('')}
+${line10.join('')}
+${line11.join('')}
+${line12.join('')}
+${line13.join('')}
+${line14.join('')}
+${line15.join('')}
+${line16.join('')}
+${line17.join('')}
 ################################################################################`);
+
 
 }
