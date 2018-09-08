@@ -2,7 +2,7 @@
 
 ## How to install:
 1. Install NodeJS to your computer.
-2. Download / Clone this repo to your computer and put the folder anywhere you want.
+2. Download this repo on / Clone this repo to your computer and put the folder anywhere you want.
 3. Open your terminal.
 4. Navigate to the folder using `cd PATH`.
 5. Type `npm install` and press enter.
