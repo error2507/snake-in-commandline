@@ -14,5 +14,6 @@ You can navigate using the arrow keys on your keyoard. The snake's body is simbo
 
 ## Credits:
 - Huge thanks to RMC (RMC#5001 on Discord) for making the logo.
+- [ASCII Art Generator](http://patorjk.com/software/taag/)
 - I used [keypress](https://www.npmjs.com/package/keypress) to know when a key was pressed.
 - I used [clear-it](https://www.npmjs.com/package/clear-it) to clear the terminal.
