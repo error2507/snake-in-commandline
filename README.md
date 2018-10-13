@@ -10,7 +10,7 @@
 7. When you want to close the game you have to close your whole terminal.
 
 ## How to play:
-You can navigate using the arrow keys on your keyoard. The snake's body is simbolized by #. Food is too. When you touch the food with the front of the snake you will eat it (It could be possible that the game bugs and you have to eat the same food again. I am going to fix that later.). When your front touches the border or the rest of your body you die.
+You can navigate using the arrow keys on your keyoard. The snake's body is simbolized by #. Food is too. When you touch the food with the front of the snake you will eat it. When your front touches the border or the rest of your body you die.
 
 ## Credits:
 - Huge thanks to RMC (RMC#5001 on Discord) for making the logo.
