@@ -65,7 +65,7 @@ module.exports.run = async (direction, table, moveInterval, fd) => {
                 if (newX >= 1) {
                     if (!table.includes(newX + '_' + parseInt(table[table.length - 1].split('_')[1], 10))) {
                         await table.push(newX + '_' + parseInt(table[table.length - 1].split('_')[1], 10));
-                        if (fd != newX + '_' + table[table.length - 2].split('_')[1], 10) {
+                        if (fd != newX + '_' + table[table.length - 2].split('_')[1]) {
                             table.shift();
                         } else {
                             fd = await food.spawn(table, fd);
@@ -91,7 +91,7 @@ module.exports.run = async (direction, table, moveInterval, fd) => {
                 if (newX <= 78) {
                     if (!table.includes(newX + '_' + parseInt(table[table.length - 1].split('_')[1], 10))) {
                         await table.push(newX + '_' + parseInt(table[table.length - 1].split('_')[1], 10));
-                        if (fd != newX + '_' + table[table.length - 2].split('_')[1], 10) {
+                        if (fd != newX + '_' + table[table.length - 2].split('_')[1]) {
                             table.shift();
                         } else {
                             fd = await food.spawn(table, fd);
