@@ -28,7 +28,7 @@ var moveInterval = setInterval(async function() {
     clear();
     fd = await food.getPos()
     move.run(direction, table, moveInterval, fd);
-}, 400);
+}, 300);
 
 keypress(process.stdin);
 
