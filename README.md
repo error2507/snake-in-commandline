@@ -13,7 +13,7 @@
 You can navigate using the arrow keys on your keyoard. The snake's body is simbolized by #. Food is too. When you touch the food with the front of the snake you will eat it. When your front touches the border or the rest of your body you die.
 
 ## Credits:
-- Huge thanks to RMC (RMC#5001 on Discord) for making the logo.
+- Huge thanks to RMC (RMC#0001 on Discord) for making the logo.
 - [ASCII Art Generator](http://patorjk.com/software/taag/)
 - I used [keypress](https://www.npmjs.com/package/keypress) to know when a key was pressed.
 - I used [clear-it](https://www.npmjs.com/package/clear-it) to clear the terminal.
